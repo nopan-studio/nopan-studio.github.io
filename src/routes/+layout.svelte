@@ -13,6 +13,8 @@
 			activeSection = sectionId;
 		}
 	}
+
+	export const prerender = true;
 </script>
 
 <svelte:head>
@@ -29,3 +31,5 @@
 	<a class="text-xs text-gray-400 hover:text-orange-700" href="https://github.com/nopan-studio">@nopan-studio</a>
 </div>
 {@render children?.()}
+
+

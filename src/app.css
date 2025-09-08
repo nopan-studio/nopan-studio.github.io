@@ -1,3 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Manrope:wght@200..800&family=Oswald:wght@200..700&display=swap');
 @import 'tailwindcss';
 @plugin '@tailwindcss/forms';
 @plugin '@tailwindcss/typography';
+
+body {
+    font-family: 'Manrope', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.oswald {
+    font-family: 'Oswald', sans-serif;
+}
+
+.inconsolata {
+    font-family: 'Inconsolata', monospace;
+}

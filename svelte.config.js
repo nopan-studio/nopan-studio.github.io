@@ -1,4 +1,4 @@
-import adapter from '@sveltejs/adapter-auto';
+import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 
 /** @type {import('@sveltejs/kit').Config} */
@@ -11,7 +11,7 @@ const config = {
                     assets: 'build',
                     fallback: undefined,
                     precompress: false,
-                    strict: true
+                    strict: false
                 }),
                 paths: {
                     base: process.env.NODE_ENV === 'production' ? '/nopan-studio' : '',
